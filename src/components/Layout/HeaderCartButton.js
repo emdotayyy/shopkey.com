@@ -3,9 +3,9 @@ import CartIcon from './CartIcon';
 
 const HeaderCartButton = () => {
     return (
-        <button>
-            <span><CartIcon /></span>
-            <span></span>
+        <button className={classes.button}>
+            <span className={classes.icon}><CartIcon /></span>
+            <span className={classes.badge}>4</span>
         </button>
     );
 };
