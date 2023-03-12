@@ -23,4 +23,17 @@
     text-align: center;
     margin-top: 85px;
     margin-bottom: -80px;
+    animation: mainIMG-appear 1s ease-out forwards;
+}
+
+@keyframes mainIMG-appear {
+    from {
+      opacity: 0;
+      transform: translateY(3rem);
+    }
+  
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
 }
