@@ -5,12 +5,12 @@ import mainImg from "../../assets/mainImg.png";
 import ProductsSummary from "../Products/ProductsSummary";
 import HeaderCartButton from "./HeaderCartButton";
 
-const Header = () => {
+const Header = (props) => {
     return (
         <Fragment>
             <header className={classes.header}>
                 <img className={classes.imgHeader} src={header}/>
-                <HeaderCartButton />
+                <HeaderCartButton onClick={props.onShowCart}/>
             </header>
             <div>
                 <div className={classes['main-image']}>
