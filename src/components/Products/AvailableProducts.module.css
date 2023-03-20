@@ -3,22 +3,38 @@
     width: 90%;
     margin: 2rem auto;
     animation: products-appear 1s ease-out forwards;
-  }
-  
+}
+
+.productsLoading {
+  margin-top: 3px;
+  font-size: 30px;
+  font-family: 'Noto Sans JP', sans-serif;
+  text-align: center;
+  color: #0f0d0d;
+}
+
+.productsError {
+  margin-top: 3px;
+  font-size: 30px;
+  font-family: 'Noto Sans JP', sans-serif;
+  text-align: center;
+  color: rgb(128, 60, 60);
+}
+
 .products ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
   
 @keyframes products-appear {
-    from {
-      opacity: 0;
-      transform: translateY(3rem);
-    }
+  from {
+    opacity: 0;
+    transform: translateY(3rem);
+  }
   
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }

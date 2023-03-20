@@ -10,7 +10,7 @@
     border-radius: 14px;
     padding: 1rem;
     box-shadow: 0 1px 18px 10px rgba(0, 0, 0, 0.25);
-    animation: summary-appear 1s ease-out forwards;
+
 }
 
 .summary h2 {
@@ -18,14 +18,3 @@
     margin-top: 0;
 }
 
-@keyframes summary-appear {
-    from {
-      opacity: 0;
-      transform: translateY(3rem);
-    }
-  
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
-}
